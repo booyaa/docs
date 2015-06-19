@@ -18,8 +18,8 @@ The memcached server information would then be available through the ENV variabl
 
 How to set the memory usage for memcached
 
-    docker run --name my-memcache -d memcached memcached -m 64
-	
+	docker run --name my-memcache -d memcached memcached -m 64
+
 This would set the memcache server to use use 64 megabytes for storage.
 
 For infomation on configuring your memcached server, see the extensive [wiki](https://code.google.com/p/memcached/wiki/NewStart).
